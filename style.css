@@ -1,0 +1,73 @@
+body {
+    background-image: url("pictures47.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-color: rgb(205, 166, 241);
+}
+#header {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 40px;
+    color: azure;
+    margin-top: 100px;
+}
+#btn-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 50px;
+}
+#btn {
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31,38, 135, 0.37);
+    backdrop-filter: blure(5.5px);
+    border-radius: 30px;
+    border: 2px solid rgb(121, 121, 170);
+    font-family: 'Roboto Serif', sans-serif;
+    cursor: pointer;
+    min-height: 50px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    background-color: transparent;
+}
+#btn:hover {
+    background: linear-gradient(to right, rgba(186, 181, 218, 0.226), rgb(129, 129, 182, 0.226));
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 25px;
+    color: azure;
+    font-weight: bolder;
+}
+@media all and (max-width: 280px) {
+    h1 {
+    margin-left: 5px;
+    }
+}
+@media all and (max-width: 300px) {
+    h1 {
+    margin-left: 20px;
+    }
+}
+@media all and (max-width: 400px) {
+    h1 {
+    margin-left: 70px;
+    }
+}
+@media all and (max-width: 500px) {
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+}
