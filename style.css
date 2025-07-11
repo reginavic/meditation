@@ -4,7 +4,8 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
     background-position: center;
-    background-color: rgb(205, 166, 241);
+    background-color: rgb(153, 136, 189);
+    overflow: hidden;
 }
 #header {
     display: flex;

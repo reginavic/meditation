@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+    background-color: black;
+}
 #container-countdown {
     display: flex;
     justify-content: center;
@@ -34,11 +38,12 @@
     margin-top: 10vh;
     cursor: pointer;
 }
+
 @media all and (max-width: 500px) {
     #myButton {
         display: block;
         justify-content: center;
-        margin-left: 70px;
+        justify-self: center;
         color: azure;
         padding: 20px;
         border-radius: 20px;
@@ -51,16 +56,10 @@
         font-family: 'Roboto Serif', sans-serif;
         cursor: pointer;
         min-height: 50px;
-        width: 250px;
+        width: 300px;
         margin-top: 10px;
         margin-bottom:10px;
         background-color: transparent;
         background: linear-gradient(to right, rgba(186, 181, 218, 0.226), rgb(129, 129, 182, 0.226));
-    }
-    .musis {
-        margin-left: 20px;
-    }
-    body {
-        background: linear-gradient(to right, #ACB6E5, #f0f3f5);
     }
 }
