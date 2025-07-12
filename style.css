@@ -2,8 +2,8 @@ body {
     background-image: url("pictures47.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
     background-color: rgb(153, 136, 189);
     overflow: hidden;
 }
